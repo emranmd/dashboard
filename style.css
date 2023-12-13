@@ -1,0 +1,117 @@
+body {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+
+
+.dashboardHeader {
+    display: flex;
+    justify-content: space-between;
+    background: aqua;
+    align-items: center;
+    padding: 7px 30px;
+    width: 100%;
+}
+.dashboardHeader p {
+    margin: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #FF5722;
+}
+.dashboardHeader a {
+    font-size: 15px;
+    font-family: math;
+    letter-spacing: 0.4px;
+}
+.dashBoardMenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #607D8B;
+    width: 16%;
+    height: 100%;
+    text-align: center;
+    padding-top: 3%;
+    position: fixed;
+}
+.dashBoardMenu ul li {
+    margin-bottom: 30px;
+}
+.dashBoardMenu ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+.contentArea {
+    margin-left: 20%;
+    padding-top: 4%;
+}
+.contentArea thead, tr, th {
+    padding: 10px 20px !important;
+    border: 1px solid black;
+}
+.contentArea tbody, tr, td {
+    border: 1px solid;
+    padding: 6px 20px !important;
+    font-family: math;
+}
+.contentArea p {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: serif;
+}
+.formArea {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+.btnarea input {
+    background: #009688;
+    border: navajowhite;
+    padding: 7px 13px;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+}
+.btnarea {
+    text-align: left;
+    margin-top: 20px;
+}
+.tittle h4 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.bodyStyle {
+    background: aquamarine;
+}
+.headerStyle {
+    background: #007ae6;
+    color: white;
+}
+.formcontainer {
+    display: inline-grid;
+    justify-content: center;
+    background: #86c6ff;
+    padding: 30px 40px;
+}
+.formArea label {
+    color: white;
+}
+.add_thr_formContainer {
+    background: #006c6d;
+    display: inline-grid;
+    padding: 55px 30px;
+    justify-content: center;
+    color: white;
+    box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.2);
+}
+.formarea {
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+}
